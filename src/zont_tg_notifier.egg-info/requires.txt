@@ -1,0 +1,14 @@
+
+[linters]
+isort
+black
+
+[pre_commit]
+pre-commit>=3.3.2
+
+[test]
+pytest>=7
+pytest-asyncio>=0.21
+
+[type_check]
+mypy

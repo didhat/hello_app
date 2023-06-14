@@ -1,5 +1,5 @@
 from src.hello.config import get_secret_name
-from src.hello.models import SecretAnswer, BasicHello
+from src.hello.models import BasicHello, SecretAnswer
 
 
 def handle_hello(name: str):
