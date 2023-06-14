@@ -7,19 +7,14 @@ requires-python= ">=3.11"
 
 
 [project.optional-dependencies]
-test = [
-    "pytest>=7",
-    "pytest-asyncio>=0.21"
-]
 
-type_check= [
-    "mypy"
-]
-
-linters = [
+ci_depends = [
+    "mypy",
     "isort",
-    "black"
+    "black",
+    "pytest>=7",
 ]
+
 pre_commit = [
     "pre-commit >= 3.3.2"
 ]
