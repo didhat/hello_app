@@ -33,4 +33,4 @@ jobs:
           mypy src/
       - name: Black
         run: |
-          black tghandler/ --check
+          black src/ tests/ --check
