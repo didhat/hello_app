@@ -19,6 +19,7 @@ jobs:
           python -c "import sys; print(sys.version)"
       - name: Install dependencies
         run: | 
+          pip install .
           python -m pip install --upgrade pip
           pip install -e .[ci_depends]
       - name: Running tests

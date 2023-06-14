@@ -5,6 +5,11 @@ description="Telegram bot for notify about zont events for users"
 readme="README.md"
 requires-python= ">=3.11"
 
+dependencies = [
+    "Flask",
+    "python-dotenv",
+]
+
 
 [project.optional-dependencies]
 
