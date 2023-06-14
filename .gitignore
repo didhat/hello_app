@@ -3,3 +3,4 @@
 *.pyx
 *.pyc
 venv
+.mypy_cache
