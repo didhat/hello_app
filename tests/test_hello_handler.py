@@ -2,8 +2,8 @@ import os
 
 import pytest
 
-from src.hello.services import handle_hello
 from src.hello.models import BasicHello, SecretAnswer
+from src.hello.services import handle_hello
 
 
 @pytest.fixture()
