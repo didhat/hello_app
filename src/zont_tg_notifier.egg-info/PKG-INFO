@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: zont-tg-notifier
-Version: 0.0.1
-Summary: Telegram bot for notify about zont events for users
-Requires-Python: >=3.11
-Description-Content-Type: text/markdown
-Provides-Extra: ci_depends
-Provides-Extra: pre_commit
