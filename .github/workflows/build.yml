@@ -1,9 +1,6 @@
 name: build
 
 on:
-  push:
-    branches:
-      - "main"
   workflow_run:
     workflows: [ci]
     types: [completed]
