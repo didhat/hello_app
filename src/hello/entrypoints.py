@@ -3,7 +3,6 @@ from flask.blueprints import Blueprint
 
 from src.hello.services import handle_hello
 
-
 hello_route = Blueprint("hello", __name__)
 
 
