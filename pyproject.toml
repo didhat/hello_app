@@ -1,13 +1,14 @@
 [project]
 version="0.0.1"
-name="zont-tg-notifier"
-description="Telegram bot for notify about zont events for users"
+name="hello_app"
+description="Basic hello app for devops course in hse"
 readme="README.md"
 requires-python= ">=3.11"
 
 dependencies = [
     "Flask",
     "python-dotenv",
+    "uwsgi"
 ]
 
 
